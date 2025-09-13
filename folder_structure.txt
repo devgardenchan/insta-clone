@@ -1,0 +1,107 @@
+.
+├── .DS_Store
+├── .claude
+│   └── settings.local.json
+├── .env
+├── .gitignore
+├── README.md
+├── eslint.config.js
+├── folder_structure.txt
+├── index.html
+├── package-lock.json
+├── package.json
+├── public
+│   ├── auth.png
+│   ├── favicon.ico
+│   ├── google.png
+│   ├── img1.png
+│   ├── img2.png
+│   ├── img3.png
+│   ├── img4.png
+│   ├── logo.png
+│   ├── microsoft.png
+│   ├── playstore.png
+│   └── profilepic.png
+├── src
+│   ├── .DS_Store
+│   ├── App.jsx
+│   ├── Layouts
+│   │   ├── .DS_Store
+│   │   └── PageLayout
+│   │       └── PageLayout.jsx
+│   ├── assets
+│   │   └── constants.jsx
+│   ├── components
+│   │   ├── AuthForm
+│   │   │   ├── AuthForm.jsx
+│   │   │   ├── GoogleAuth.jsx
+│   │   │   ├── Login.jsx
+│   │   │   └── Signup.jsx
+│   │   ├── Comment
+│   │   │   ├── Caption.jsx
+│   │   │   └── Comment.jsx
+│   │   ├── FeedPosts
+│   │   │   ├── FeedPost.jsx
+│   │   │   ├── FeedPosts.jsx
+│   │   │   ├── PostFooter.jsx
+│   │   │   └── PostHeader.jsx
+│   │   ├── Modal
+│   │   │   └── CommentsModal.jsx
+│   │   ├── Navbar
+│   │   │   └── Navbar.jsx
+│   │   ├── Profile
+│   │   │   ├── EditProfile.jsx
+│   │   │   ├── ProfileHeader.jsx
+│   │   │   ├── ProfilePost.jsx
+│   │   │   ├── ProfilePosts.jsx
+│   │   │   ├── ProfileTab.jsx
+│   │   │   └── UserListModal.jsx
+│   │   ├── Sidebar
+│   │   │   ├── CreatePost.jsx
+│   │   │   ├── Home.jsx
+│   │   │   ├── Notifications.jsx
+│   │   │   ├── ProfileLink.jsx
+│   │   │   ├── Search.jsx
+│   │   │   ├── Sidebar.jsx
+│   │   │   └── SidebarItems.jsx
+│   │   └── SuggestedUsers
+│   │       ├── SuggestedHeader.jsx
+│   │       ├── SuggestedUser.jsx
+│   │       └── SuggestedUsers.jsx
+│   ├── firebase
+│   │   └── firebase.js
+│   ├── hooks
+│   │   ├── useEditProfile.js
+│   │   ├── useFollowUser.js
+│   │   ├── useGetFeedPosts.js
+│   │   ├── useGetSuggestedUsers.js
+│   │   ├── useGetUserPosts.js
+│   │   ├── useGetUserProfileById.js
+│   │   ├── useGetUserProfileByUsername.js
+│   │   ├── useLikePost.js
+│   │   ├── useLogin.js
+│   │   ├── useLogout.js
+│   │   ├── usePostComment.js
+│   │   ├── usePreviewImg.js
+│   │   ├── useSearchUser.js
+│   │   ├── useShowToast.js
+│   │   └── useSignUpWithEmailAndPassword.js
+│   ├── index.css
+│   ├── main.jsx
+│   ├── pages
+│   │   ├── AuthPage
+│   │   │   └── AuthPage.jsx
+│   │   ├── HomePage
+│   │   │   └── HomePage.jsx
+│   │   └── ProfilePage
+│   │       └── ProfilePage.jsx
+│   ├── store
+│   │   ├── authStore.js
+│   │   ├── postStore.js
+│   │   └── userProfileStore.js
+│   └── utils
+│       └── timeAgo.js
+├── vercel.json
+└── vite.config.js
+
+24 directories, 81 files
